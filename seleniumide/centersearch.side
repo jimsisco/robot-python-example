@@ -1,0 +1,354 @@
+{
+  "id": "20b33dc1-4355-4a3a-a7bd-fae9c382582c",
+  "version": "2.0",
+  "name": "Kindercare",
+  "url": "https://www.kindercare.com",
+  "tests": [{
+    "id": "42135fd9-36cb-4ef7-8365-54081442aa4c",
+    "name": "Untitled",
+    "commands": [{
+      "id": "6e252299-c762-48d7-a29e-1bb19fbdb4ae",
+      "comment": "",
+      "command": "open",
+      "target": "/our-centers/results",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "38375431-bfe0-4d5e-918a-d08629a5cb17",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x777",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f6ca3023-2709-4791-a38e-afc4b941f3ef",
+      "comment": "",
+      "command": "click",
+      "target": "id=center-search-location",
+      "targets": [
+        ["id=center-search-location", "id"],
+        ["css=#center-search-location", "css:finder"],
+        ["xpath=//input[@id='center-search-location']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div[2]/aside/div[2]/form/fieldset/ol/li/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/fieldset/ol/li/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d017e4a8-a3b4-43f2-bb7b-b4884b08b6a4",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=center-search-location",
+      "targets": [
+        ["id=center-search-location", "id"],
+        ["css=#center-search-location", "css:finder"],
+        ["xpath=//input[@id='center-search-location']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div[2]/aside/div[2]/form/fieldset/ol/li/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/fieldset/ol/li/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "67020308-fc50-4ff3-8e9d-fae8456fa7ca",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#\\33 00902 .center-result-item__name",
+      "targets": [
+        ["css=#\\33 00902 .center-result-item__name", "css:finder"],
+        ["xpath=//li[@id='300902']/div/a/h2", "xpath:idRelative"],
+        ["xpath=//a/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Powell KinderCare')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "98ccd4e6-0207-4d7f-acc9-3e4431417dcd",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\33 00902 .center-result-item__name",
+      "targets": [
+        ["css=#\\33 00902 .center-result-item__name", "css:finder"],
+        ["xpath=//li[@id='300902']/div/a/h2", "xpath:idRelative"],
+        ["xpath=//a/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Powell KinderCare')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "322f4d46-dcde-4e38-a8c9-a455928b41ba",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Our Centers",
+      "targets": [
+        ["linkText=Our Centers", "linkText"],
+        ["css=.nav-has-children:nth-child(2) > .nav-title", "css:finder"],
+        ["xpath=//a[contains(text(),'Our Centers')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#sub-nav-our-centers')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Our Centers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6be94468-14d9-4fa4-bd5e-7bc4849e2862",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#\\33 00902 .btn",
+      "targets": [
+        ["css=#\\33 00902 .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Tuition & Openings')]", "xpath:link"],
+        ["xpath=//li[@id='300902']/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/our-centers/contact/300902')]", "xpath:href"],
+        ["xpath=//div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1bf07f09-0ee5-45a0-9f0d-5ab17c527cfd",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\33 00902 .btn",
+      "targets": [
+        ["css=#\\33 00902 .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Tuition & Openings')]", "xpath:link"],
+        ["xpath=//li[@id='300902']/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/our-centers/contact/300902')]", "xpath:href"],
+        ["xpath=//div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09ce2f83-83a9-4ba8-a36d-43b607eb46e1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#\\33 00902 .btn",
+      "targets": [
+        ["css=#\\33 00902 .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Tuition & Openings')]", "xpath:link"],
+        ["xpath=//li[@id='300902']/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/our-centers/contact/300902')]", "xpath:href"],
+        ["xpath=//div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccbcc2c8-994d-4a1d-a248-79a0f0762454",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "225ea54a-4b28-4882-8509-41eb93716dcc",
+      "comment": "",
+      "command": "click",
+      "target": "id=FirstName",
+      "targets": [
+        ["id=FirstName", "id"],
+        ["name=FirstName", "name"],
+        ["css=#FirstName", "css:finder"],
+        ["xpath=//input[@id='FirstName']", "xpath:attributes"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31bf3dc3-dbea-4708-a1b5-08c1d95f64a4",
+      "comment": "",
+      "command": "type",
+      "target": "id=FirstName",
+      "targets": [
+        ["id=FirstName", "id"],
+        ["name=FirstName", "name"],
+        ["css=#FirstName", "css:finder"],
+        ["xpath=//input[@id='FirstName']", "xpath:attributes"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": "Fn"
+    }, {
+      "id": "26a38e70-6530-4320-8700-46f7b4e9b840",
+      "comment": "",
+      "command": "type",
+      "target": "id=LastName",
+      "targets": [
+        ["id=LastName", "id"],
+        ["name=LastName", "name"],
+        ["css=#LastName", "css:finder"],
+        ["xpath=//input[@id='LastName']", "xpath:attributes"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": "LN"
+    }, {
+      "id": "7a36cfce-a350-4307-946e-42809fdf2638",
+      "comment": "",
+      "command": "type",
+      "target": "id=EmailAddress",
+      "targets": [
+        ["id=EmailAddress", "id"],
+        ["name=EmailAddress", "name"],
+        ["css=#EmailAddress", "css:finder"],
+        ["xpath=//input[@id='EmailAddress']", "xpath:attributes"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": "em@some.com"
+    }, {
+      "id": "f7703c68-52fa-459c-98c1-8ae8e6fba0f1",
+      "comment": "",
+      "command": "type",
+      "target": "id=ConfirmEmailAddress",
+      "targets": [
+        ["id=ConfirmEmailAddress", "id"],
+        ["name=ConfirmEmailAddress", "name"],
+        ["css=#ConfirmEmailAddress", "css:finder"],
+        ["xpath=//input[@id='ConfirmEmailAddress']", "xpath:attributes"],
+        ["xpath=//li[4]/input", "xpath:position"]
+      ],
+      "value": "em@come.com"
+    }, {
+      "id": "a8a68b7e-1571-4818-82a5-1b1588243ad1",
+      "comment": "",
+      "command": "click",
+      "target": "id=ConfirmEmailAddress",
+      "targets": [
+        ["id=ConfirmEmailAddress", "id"],
+        ["name=ConfirmEmailAddress", "name"],
+        ["css=#ConfirmEmailAddress", "css:finder"],
+        ["xpath=//input[@id='ConfirmEmailAddress']", "xpath:attributes"],
+        ["xpath=//li[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77da75e8-a0a9-4058-9680-0a534a67bd80",
+      "comment": "",
+      "command": "type",
+      "target": "id=ConfirmEmailAddress",
+      "targets": [
+        ["id=ConfirmEmailAddress", "id"],
+        ["name=ConfirmEmailAddress", "name"],
+        ["css=#ConfirmEmailAddress", "css:finder"],
+        ["xpath=//input[@id='ConfirmEmailAddress']", "xpath:attributes"],
+        ["xpath=//li[4]/input", "xpath:position"]
+      ],
+      "value": "em@some.com"
+    }, {
+      "id": "685e2f7f-5f48-4cb8-b127-fbc63cbb7a37",
+      "comment": "",
+      "command": "click",
+      "target": "id=Comments",
+      "targets": [
+        ["id=Comments", "id"],
+        ["name=Comments", "name"],
+        ["css=#Comments", "css:finder"],
+        ["xpath=//textarea[@id='Comments']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "670cd5f1-fbf7-4a56-90da-95e5b37e436a",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContactMeBy",
+      "targets": [
+        ["id=ContactMeBy", "id"],
+        ["name=ContactMeBy", "name"],
+        ["css=#ContactMeBy", "css:finder"],
+        ["xpath=//select[@id='ContactMeBy']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'Contact me by\nEither Phone or Email\nPhone Only\nEmail Only')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "99b4f801-4170-495f-b331-c956b5ec8c4b",
+      "comment": "",
+      "command": "select",
+      "target": "id=ContactMeBy",
+      "targets": [],
+      "value": "label=Either Phone or Email"
+    }, {
+      "id": "3ca4ce4a-9d14-41f0-9bd6-cff291883bb3",
+      "comment": "",
+      "command": "click",
+      "target": "id=PhoneNumber",
+      "targets": [
+        ["id=PhoneNumber", "id"],
+        ["name=PhoneNumber", "name"],
+        ["css=#PhoneNumber", "css:finder"],
+        ["xpath=//input[@id='PhoneNumber']", "xpath:attributes"],
+        ["xpath=//li[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2722679b-f3ed-46a7-bf3a-fc392b6ee560",
+      "comment": "",
+      "command": "type",
+      "target": "id=PhoneNumber",
+      "targets": [
+        ["id=PhoneNumber", "id"],
+        ["name=PhoneNumber", "name"],
+        ["css=#PhoneNumber", "css:finder"],
+        ["xpath=//input[@id='PhoneNumber']", "xpath:attributes"],
+        ["xpath=//li[5]/input", "xpath:position"]
+      ],
+      "value": "5037549338"
+    }, {
+      "id": "b6d29e4d-3d72-40e0-96c7-c5129b1325c3",
+      "comment": "",
+      "command": "click",
+      "target": "id=Comments",
+      "targets": [
+        ["id=Comments", "id"],
+        ["name=Comments", "name"],
+        ["css=#Comments", "css:finder"],
+        ["xpath=//textarea[@id='Comments']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ba57a71-4d6e-4069-9bc0-50f1a001fb48",
+      "comment": "",
+      "command": "type",
+      "target": "id=Comments",
+      "targets": [
+        ["id=Comments", "id"],
+        ["name=Comments", "name"],
+        ["css=#Comments", "css:finder"],
+        ["xpath=//textarea[@id='Comments']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "ddd"
+    }, {
+      "id": "55491fab-05f2-4968-9b1d-6147fbc612a0",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3edb4aa-4823-493b-b0da-177155c5bcbf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=×",
+      "targets": [
+        ["linkText=×", "linkText"],
+        ["css=#modal-tuition-openings > .close-site-search:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'×')]", "xpath:link"],
+        ["xpath=//div[@id='modal-tuition-openings']/a", "xpath:idRelative"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'×')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e661c6ec-4f63-4d78-93ca-7e987fbe345a",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e18b8811-76a2-4e93-9e0e-eb93e13a4b7e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["42135fd9-36cb-4ef7-8365-54081442aa4c"]
+  }],
+  "urls": ["https://www.kindercare.com/"],
+  "plugins": []
+}
