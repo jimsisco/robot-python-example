@@ -12,7 +12,7 @@ Resource          ../features/CenterSearchKW.robot
 *** Variables ***
 
 *** Test Cases ***
-
+#Your need to run "pipenv sync" at a cmd prompt
 #robot -d results features/01-CenterSearch.robot
 
 Center Search by ZIP

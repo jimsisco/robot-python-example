@@ -15,8 +15,20 @@ ${VERCETNERNAME}       xpath://h2[contains(.,'Powell KinderCare')]
 ${SELECTCENTERNAME}     xpath://*[@id="300902"]/div/a/h2
 ${TUITIONOPENINGS}  xpath://a[contains(text(),'Tuition \& Openings')]
 ${INPUTTITLE}       xpath://h2[contains(.,'Powell KinderCare')]
-${FNXPATH}      name:FirstName
-${CODE}     document.querySelector("#FirstName")
+${FFXPATH}      xpath://*[@id="iframe-tuition-modal"]
+${FNXPATH}      xpath://input[@id='FirstName']
+${FN}       First Name!!
+${LNXPATH}      xpath://input[@id='LastName']
+${LN}       Last Name!!
+${EMXPATH}      xpath://input[@id='EmailAddress']
+${EM}       test@test.com
+${CEMXPATH}     xpath://input[@id='ConfirmEmailAddress']
+${CEM}      test@test.com
+${PNUMXPATH}    xpath://input[@id='PhoneNumber']
+${PNUM}     555-555-5555
+${CMBXPATH}     xpath://input[@id='FirstName']
+${CMB}      Email Only
+
 
 *** Keywords ***
 I go to Kindercare Home Page
@@ -51,4 +63,12 @@ I can see Powell KinderCare
     Element Text Should Be    ${INPUTTITLE}         Powell KinderCare
 
 I enter contact information
-    Input First Name        ${FNXPATH}
+    element text should be    //h2[contains(.,'Powell KinderCare')]           Powell KinderCare
+    Input First Name    ${FFXPATH}      ${FNXPATH}      ${FN}
+    Input Last Name    ${LNXPATH}       ${LN}
+    Input Email        ${EMXPATH}       ${EM}
+    Input Confirm Email     ${CEMXPATH}      ${CEM}
+    Input Phone Number      ${PNUMXPATH}      ${PNUM}
+    capture page screenshot
+    #Input Contact Me by    ${CMBXPATH}         ${CMB}
+

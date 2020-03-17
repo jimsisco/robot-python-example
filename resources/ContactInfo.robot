@@ -1,25 +1,32 @@
 *** Settings ***
-Resource          ../resources/resource.robot
+Library           SeleniumLibrary
 
 *** Variables ***
-#${FNXPATH} =      name:FirstName
-#FirstName
-#xpath://*[@id='FirstName']
-#xpath://input[@id='FirstName']
-#Position xpath://li/input
-#document.querySelector("#FirstName")
-#${LN}
-#${EM}
-#${PN}
-#${CM}
-#${CM}
+
 
 *** Keywords ***
 
 Input First Name
-    [Arguments]    ${F1NXPATH}      ${CODE}
-    Log    "HELP"
-    log    ${F1NXPATH}
-#js.executeScript("document.getElementById('some id').value='someValue';");
-    #execute javascript    seleniumlibrary.input text        123     ${F1NXPATH}
-    Execute Javascript       ${CODE}     #${F1NXPATH}
+    [Arguments]    ${FFXPATH}      ${FNXPATH}       ${FN}
+    select frame    ${FFXPATH}
+    input text      ${FNXPATH}          ${FN}
+
+Input Last Name
+    [Arguments]     ${LNXPATH}      ${LN}
+    input text      ${LNXPATH}          ${LN}
+
+Input Email
+    [Arguments]     ${EMXPATH}      ${EM}
+    input text      ${EMXPATH}          ${EM}
+
+Input Confirm Email
+    [Arguments]     ${CEMXPATH}      ${LN}
+    input text      ${CEMXPATH}          ${LN}
+
+Input Phone Number
+    [Arguments]     ${PNUMXPATH}      ${PNUM}
+    input text      ${PNUMXPATH}          ${PNUM}
+
+Input Contact Me by
+    [Arguments]     ${CMBXPATH}      ${CMB}
+    input text      ${CMBXPATH}          ${CMB}

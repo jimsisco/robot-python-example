@@ -9,6 +9,6 @@ Library           SeleniumLibrary
 
 *** Variables ***
 ${BROWSER}        Chrome
-${DELAY}          0
+${DELAY}          2
 ${CREDENTIALS_PATH_CSV} =  /Users/jamessiscaretti/Champions/data/testdata.csv
 ${DCURL}      https://www.kindercare.com
